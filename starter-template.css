@@ -6,17 +6,26 @@ body {
   text-align: center;
 }
 
-.contact-image {
-  padding-top: 10px;
+.twitter {
+  height: 18px;
 }
 
-.twitter {
-  width: 51px;
-  height: 41px;
-  filter: grayscale(100%);
-  padding: 10px;
+.mya {
+
 }
+
+.nav.navbar-nav>li>a.mya:hover {
+    background-color:#5ea9dd;
+}
+
+/*.mya:hover {
+  background-color: blue;
+}*/
 
 .twitter:hover {
   background-color: #5ea9dd;
+}
+
+.menu-bar-container {
+  display: list-item;
 }
