@@ -1,0 +1,22 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.contact-image {
+  padding-top: 10px;
+}
+
+.twitter {
+  width: 51px;
+  height: 41px;
+  filter: grayscale(100%);
+  padding: 10px;
+}
+
+.twitter:hover {
+  background-color: #5ea9dd;
+}
