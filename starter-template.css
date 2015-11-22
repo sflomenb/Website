@@ -10,20 +10,18 @@ body {
   height: 18px;
 }
 
-.mya {
-
+.linkedin {
+  height: 18px;
 }
 
-.nav.navbar-nav>li>a.mya:hover {
+.twitter-a {}
+
+.nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
     background-color:#5ea9dd;
 }
 
-/*.mya:hover {
-  background-color: blue;
-}*/
-
-.twitter:hover {
-  background-color: #5ea9dd;
+.nav.navbar-nav>li>a.linkedin-a:hover, .linkedin:hover {
+    background-color:#0084bf;
 }
 
 .menu-bar-container {
