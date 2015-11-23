@@ -14,10 +14,21 @@ body {
   height: 18px;
 }
 
+.github {
+  height: 18px;
+}
+
 .mail {
   width: 18px;
 }
 
+.nav.navbar-nav>li>a.twitter-a, .twitter,
+.nav.navbar-nav>li>a.linkedin-a, .linkedin,
+.nav.navbar-nav>li>a.mail-a, .mail,
+.nav.navbar-nav>li>a.github-a, .github
+ {
+  text-align: center;
+}
 
 .nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
     background-color:#5ea9dd;
@@ -29,6 +40,10 @@ body {
 
 .nav.navbar-nav>li>a.mail-a:hover, .mail:hover {
     background-color:#bf1212;
+}
+
+.nav.navbar-nav>li>a.github-a:hover, .github:hover {
+    background-color:#722c80;
 }
 
 .menu-bar-container {
