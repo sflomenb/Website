@@ -14,7 +14,10 @@ body {
   height: 18px;
 }
 
-.twitter-a {}
+.mail {
+  width: 18px;
+}
+
 
 .nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
     background-color:#5ea9dd;
@@ -22,6 +25,10 @@ body {
 
 .nav.navbar-nav>li>a.linkedin-a:hover, .linkedin:hover {
     background-color:#0084bf;
+}
+
+.nav.navbar-nav>li>a.mail-a:hover, .mail:hover {
+    background-color:#bf1212;
 }
 
 .menu-bar-container {
