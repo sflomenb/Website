@@ -6,6 +6,31 @@ body {
   text-align: center;
 }
 
+.work-logo {
+  text-align: left !important;
+  width: 100px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+.experience-text {
+  text-align: justify;
+  clear: both;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-title {
+  padding: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-info {
+  /*float: none;*/
+}
+
 .twitter {
   height: 18px;
 }
@@ -22,32 +47,29 @@ body {
   width: 18px;
 }
 
-.work-logo {
-  width: 60px;
-}
 
 .nav.navbar-nav>li>a.twitter-a, .twitter,
 .nav.navbar-nav>li>a.linkedin-a, .linkedin,
 .nav.navbar-nav>li>a.mail-a, .mail,
 .nav.navbar-nav>li>a.github-a, .github
- {
+{
   text-align: center;
 }
 
 .nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
-    background-color:#5ea9dd;
+  background-color:#5ea9dd;
 }
 
 .nav.navbar-nav>li>a.linkedin-a:hover, .linkedin:hover {
-    background-color:#0084bf;
+  background-color:#0084bf;
 }
 
 .nav.navbar-nav>li>a.mail-a:hover, .mail:hover {
-    background-color:#bf1212;
+  background-color:#bf1212;
 }
 
 .nav.navbar-nav>li>a.github-a:hover, .github:hover {
-    background-color:#722c80;
+  background-color:#722c80;
 }
 
 .menu-bar-container {
