@@ -22,6 +22,10 @@ body {
   width: 18px;
 }
 
+.work-logo {
+  width: 60px;
+}
+
 .nav.navbar-nav>li>a.twitter-a, .twitter,
 .nav.navbar-nav>li>a.linkedin-a, .linkedin,
 .nav.navbar-nav>li>a.mail-a, .mail,
