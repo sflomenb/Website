@@ -13,6 +13,14 @@ body {
   margin-bottom: 10px;
 }
 
+.experience-header {
+  padding-bottom: 10px;
+}
+
+.resume-button {
+  margin-bottom: 20px;
+}
+
 .experience-text {
   text-align: justify;
   clear: both;
