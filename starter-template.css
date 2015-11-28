@@ -59,18 +59,9 @@ body {
   height: 15px;
 }
 
-.linkedin {
+.linkedin, .github, .mail {
   height: 18px;
 }
-
-.github {
-  height: 18px;
-}
-
-.mail {
-  width: 18px;
-}
-
 
 .nav.navbar-nav>li>a.twitter-a, .twitter,
 .nav.navbar-nav>li>a.linkedin-a, .linkedin,
