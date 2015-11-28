@@ -49,12 +49,17 @@
             <li><a href="about.html">About</a></li>
             <li><a href="experience.html">Experience</a></li>
             <li class="active"><a href="projects.html">Projects</a></li>
-            <!--<li><a href="#contact">Contact</a></li>-->
-            <!-- <li><a class="twitter-a" href="http://twitter.com/sflomenb" target="_newtab"><img class="twitter" src="images/Twitter_logo_white.png"></a></li> -->
-            <li><a class="linkedin-a" href="http://linkedin.com/in/sflomenb" target="_newtab"><img class="linkedin" src="images/linkedin-logo.png"></a></li>
-            <li><a class="mail-a" href="mailto:sam.flomenberg@gmail.com"><img class="mail" src="images/Envelope.png"></a></li>
-            <li><a class="github-a" href="https://github.com/sflomenb" target="_newtab"><img class="github" src="images/github-logo.png"></a></li>
             <li><a href="resources/SFResume.pdf" target="_newtab">Résumé</a></li>
+            <!-- <li><a class="visible-sm">Contact</a></li> -->
+            <li><a href="#" class="visible-sm" data-placement="bottom" data-toggle="popover" title="Contact Me" data-content="
+              <a href='http://twitter.com/sflomenb' target='_newtab'>Twitter</a>
+              <a href='http://linkedin.com/in/sflomenb' target='_newtab'>LinkedIn</a>
+              <a href='mailto:sam.flomenberg@gmail.com'>Email</a>
+              <a href='https://github.com/sflomenb' target='_newtab'>GitHub</a> ">Contact</a></li>
+            <li><a class="twitter-a hidden-sm" href="http://twitter.com/sflomenb" target="_newtab"><img class="twitter" src="resources/images/Twitter_logo_white.png"></a></li>
+            <li><a class="linkedin-a hidden-sm" href="http://linkedin.com/in/sflomenb" target="_newtab"><img class="linkedin hidden-sm" src="resources/images/linkedin-logo.png"></a></li>
+            <li><a class="mail-a hidden-sm" href="mailto:sam.flomenberg@gmail.com"><img class="mail hidden-sm" src="resources/images/Envelope.png"></a></li>
+            <li><a class="github-a hidden-sm" href="https://github.com/sflomenb" target="_newtab"><img class="github hidden-sm" src="resources/images/github-logo.png"></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -77,5 +82,10 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover({html: true});
+    });
+    </script>
   </body>
 </html>
