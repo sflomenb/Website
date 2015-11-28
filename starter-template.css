@@ -8,9 +8,17 @@ body {
 
 .work-logo {
   text-align: left !important;
-  width: 100px;
   margin-right: 7px;
-  margin-bottom: 10px;
+}
+
+.work-logo-width {
+  width: 100px;
+}
+
+.band-width {
+  width: 40%;
+  min-width: 140px;
+  max-width: 160px;
 }
 
 .experience-header {
@@ -22,6 +30,7 @@ body {
 }
 
 .experience-text {
+  padding-top: 10px;
   text-align: justify;
   clear: both;
   max-width: 600px;
@@ -30,7 +39,7 @@ body {
 }
 
 .work-title {
-  padding: 1px;
+  margin: 1px;
   display: inline-block;
   vertical-align: middle;
 }
