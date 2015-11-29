@@ -59,8 +59,22 @@ body {
   height: 15px;
 }
 
+.twitter-sm {
+  height: 15px;
+  margin-right: 5px;
+}
+
 .linkedin, .github, .mail {
   height: 18px;
+}
+
+.linkedin-sm, .github-sm, .mail-sm {
+  height: 18px;
+  margin-right: 5px;
+}
+
+.pad {
+  padding-right: 2px;
 }
 
 .nav.navbar-nav>li>a.twitter-a, .twitter,
