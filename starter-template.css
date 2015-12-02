@@ -19,6 +19,13 @@ body {
   margin-top: 20px;
 }
 
+.about-logo {
+  text-align: left !important;
+  margin-right: 7px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .work-logo-width {
   width: 100px;
 }
@@ -48,8 +55,9 @@ body {
 }
 
 .work-title {
-  margin: 1px;
-  display: inline-block;
+  margin: 5px;
+  margin-top: 10px !important;
+  /*display: inline-block;*/
   vertical-align: middle;
 }
 
