@@ -16,6 +16,7 @@ body {
 .work-logo {
   text-align: left !important;
   margin-right: 7px;
+  margin-top: 20px;
 }
 
 .work-logo-width {
@@ -33,12 +34,13 @@ body {
 }
 
 .resume-button {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
 }
 
 .experience-text {
   padding-top: 10px;
-  text-align: justify;
+  text-align: left;
   clear: both;
   max-width: 600px;
   margin-left: auto;
@@ -91,6 +93,14 @@ body {
 
 .nav.navbar-nav>li>a.linkedin-a:hover, .linkedin:hover {
   background-color:#0084bf;
+}
+
+.pin {
+  display: inline-block;
+  height: 1.1em;
+  padding-right: 5px;
+  position: relative;
+  top: -2px;
 }
 
 .nav.navbar-nav>li>a.mail-a:hover, .mail:hover {
