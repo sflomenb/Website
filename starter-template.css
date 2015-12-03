@@ -35,7 +35,6 @@ body {
 
 .about-logo {
   text-align: left !important;
-  margin-right: 7px;
   margin-top: 20px;
   text-align: center;
 }
@@ -55,8 +54,7 @@ body {
 }
 
 .resume-button {
-  margin-bottom: 30px;
-  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .experience-text {
@@ -113,7 +111,7 @@ body {
   background-color:#5ea9dd;
 }
 
-.nav.navbar-nav>li>a.linkedin-a:hover, .linkedin:hover {
+.nav.navbar-nav>li>a.linkedin-a:hover{
   background-color:#0084bf;
 }
 
@@ -125,11 +123,11 @@ body {
   top: -2px;
 }
 
-.nav.navbar-nav>li>a.mail-a:hover, .mail:hover {
+.nav.navbar-nav>li>a.mail-a:hover {
   background-color:#bf1212;
 }
 
-.nav.navbar-nav>li>a.github-a:hover, .github:hover {
+.nav.navbar-nav>li>a.github-a:hover{
   background-color:#722c80;
 }
 
