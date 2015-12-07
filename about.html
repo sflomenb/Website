@@ -69,14 +69,14 @@
       <div class="container">
         <div class="starter-template">
           <h1>About Me</h1>
-          <p class="lead about-text">I'm Sam Flomenberg. I am a passionate app and web developer, and I like to make apps that <a href="https://play.google.com/store/apps/details?id=com.ionicframework.v6267936">make jobs easier to do</a>. I'm currently looking for an internship for Summer 2016.</p>
+          <p class="lead about-text">I'm Sam Flomenberg. I am a passionate app and web developer, and I like to make apps that <a href="https://play.google.com/store/apps/details?id=com.ionicframework.v6267936" target="_newtab">make jobs easier to do</a>. I'm currently looking for an internship for Summer 2016.</p>
           <div class="col-md-4">
             <div class="company-info">
               <img class="about-logo band-width" src="resources/images/udlogoseal.png">
               <h3 class="work-title">Education</h3>
             </div>
             <div class="experience-text">
-              <p class="lead">As a <b>Computer Science major</b> at the <a href="http://udel.edu" target="_newtab">University of Delaware</a>, I have been exposed to many different ideas and experiences. From languages like Java, C++, and SQL, to ideas like the Agile development methodology, I have ...</p>
+              <p class="lead">As a <b>Computer Science major</b> at the <a href="http://udel.edu" target="_newtab">University of Delaware</a>, I have been exposed to many different ideas and experiences. Through the many classes I've taken, I have learned <a href="#" title="Known Languages" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="<b>Proficient:</b> Java, AngularJS, Ionic<br><b>Familiar:</b> C++, C, SQL<br><b>Web Development:</b> HTML5, CSS3">new languages</a> and have improved my problem solving skills, both of which are imporant to succeed in the field.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -85,7 +85,7 @@
               <h3 class="work-title">Developer</h3>
             </div>
             <div class="experience-text">
-              <p class="lead">I have <b>developed</b> many different applications. From projects in <a href="experience.html#jeffApp2"> AngularJS and Ionic</a>, to </p>
+              <p class="lead">My skills as a <b>developer</b> have been augmented both in the classroom and in the workforce. Through <a href="projects.html">academic and personal projects</a>, I have learned new languages and overcame difficult challenges.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -113,5 +113,10 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover({html: true});
+    });
+    </script>
   </body>
   </html>
