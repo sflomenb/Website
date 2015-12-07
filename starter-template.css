@@ -39,6 +39,12 @@ body {
   text-align: center;
 }
 
+.about-text {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .work-logo-width {
   width: 100px;
 }
