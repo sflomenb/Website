@@ -26,6 +26,12 @@ body {
   margin-top: 20px;
 }
 
+.project-width {
+  width: 80%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
 .wrap {
   min-height: 89.2%;
   height: auto;
@@ -77,6 +83,10 @@ body {
   margin-top: 10px !important;
   /*display: inline-block;*/
   vertical-align: middle;
+}
+
+.project-title {
+  padding-top: 15px;
 }
 
 .company-info {
