@@ -178,6 +178,7 @@ body {
 }
 
 .footer {
+  color: #777;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -192,4 +193,27 @@ body {
   padding-bottom: 5px;
   border-top: 1px solid #d2d2d2;
   text-align: center;*/
+}
+
+
+@media screen and (max-width: 400px) and (orientation: portrait){
+
+  .footer {
+    font-size: 8.5px;
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f7f4ea;
+    text-align: center;
+    padding-top: 20px;
+
+    /*bottom: 0em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #d2d2d2;
+    text-align: center;*/
+  }
 }
