@@ -178,7 +178,7 @@ body {
 .nav.navbar-nav>li>a.mail-a, .mail,
 .nav.navbar-nav>li>a.github-a, .github
 {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
