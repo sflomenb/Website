@@ -90,6 +90,11 @@ body {
   margin: 10px
 }
 
+.clear-img {
+  width: 100px
+  height: 100px
+}
+
 .wrap {
   min-height: 89.2%;
   height: auto;
@@ -171,6 +176,28 @@ body {
 
 .pad {
   padding-right: 2px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tech-btn {
+ margin-bottom: 5px;
+}
+
+.html-btn {
+  color: #FFF;
+  background-color: #F0754E;
+}
+
+.hide {
+  display: none;
 }
 
 .nav.navbar-nav>li>a.twitter-a, .twitter,
