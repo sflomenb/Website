@@ -29,8 +29,8 @@ var buttons = document.getElementsByClassName('btn');
 for (var i = 0; i < buttons.length-1; i++) {
   buttons[i].addEventListener('click', function(ev) {
     clearFilter();
-    buttonLang = ev.target.innerText;
-    projectsToHide = [];
+    buttonLang = ev.target.innerText || ev.target.title;
+    var projectsToHide = [];
     projects.forEach(function(project) {
       var hide = false;
       project.language.forEach(function(lang) {
