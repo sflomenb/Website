@@ -196,6 +196,11 @@ body {
   background-color: #F0754E;
 }
 
+.html-btn:hover {
+  color: #FFF;
+  background-color: #F35E2F;
+}
+
 .hide {
   display: none;
 }
