@@ -210,7 +210,7 @@ body {
 .nav.navbar-nav>li>a.mail-a, .mail,
 .nav.navbar-nav>li>a.github-a, .github
 {
-  /*text-align: center;*/
+  transition: background-color, color, 0.25s ease;
 }
 
 .nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
