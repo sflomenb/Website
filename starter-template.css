@@ -3,6 +3,11 @@ html {
   min-height: 100%;
 }
 
+.swift {
+	max-width: 100px !important;
+	padding-bottom: 10px;
+}
+
 body {
   padding-top: 50px;
   /* Margin bottom by footer height */
