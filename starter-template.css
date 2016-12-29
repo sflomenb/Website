@@ -45,6 +45,18 @@ body {
   text-align: center;
 }
 
+#clinicaltrialsinner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .screenshot2 {
+    float: none;
+    margin: 10px auto;
+  }
+}
+
 .screenshot-pacman {
   width: 30%;
   max-width: 400px;
