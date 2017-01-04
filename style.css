@@ -1,4 +1,518 @@
-.navbar {
-  background-color: black;
-  color: gray;
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  /*padding-top: 50px;*/
+  margin-bottom: 60px;
+  background-color: #006466; /* #A3E9E9 #378B2E; #236167;*/
+  color: #ffffff
+}
+
+.swift {
+	max-width: 100px !important;
+	padding-bottom: 10px;
+}
+
+nav {
+  background-color: #005252;
+  /*padding: 1em 0;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  opacity: 0.95;
+}
+
+nav div:not(.all-contact) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left {
+  margin-right: auto;
+}
+
+nav a {
+  /*border: 1px solid black;*/
+  padding: 1em;
+  margin: 0 20px;
+  /*color: #AC0000;*/
+}
+
+nav a:hover {
+  background-color: #003838;
+  text-decoration: none;
+}
+
+nav div:nth-of-type(2) {
+  background-color: blue;
+  display: flex;
+}
+
+nav > div > a {
+  /*padding: 1em;*/
+  padding: 1em;
+  margin: 0 20px;
+}
+
+#brand {
+}
+
+#all-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005353;
+}
+
+@media (min-width: 1200px) {
+  nav div {
+    padding: 0px 10em;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding-top: 23px;
+  }
+  nav div {
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s ease;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+  }
+  nav div a:nth-child(n+3) {
+    /*color: blue;*/
+    border-top: 1px solid #7dcfea;
+  }
+  .left {
+    align-items: center;
+  }
+  input[type=checkbox]:checked ~ div {
+    opacity: 1;
+    height: 140px;
+    visibility: visible;
+  }
+  #menu-toggle, .label-toggle {
+    display: inline !important;
+    float: right;
+  }
+  #menu-toggle {
+    opacity: 0;
+  }
+  #about {
+    padding-top: 40px;
+  }
+  #hamburger, #close {
+    width: 20px;
+  }
+  #close * {
+    fill: #FFF;
+  }
+  .hide {
+    display: none;
+  }
+  #brand {
+    display: none;
+  }
+}
+
+
+/* -------------------*/
+
+#menu-toggle, .label-toggle {display: none;}
+
+
+/* -------------------*/
+
+nav li a {
+  /*display: block;
+  background-color: blue;
+  padding: 1em 4em;*/
+}
+
+nav div a:hover {
+  /*background-color: green;*/
+}
+
+/* a   #98282e; #D4B16A;*/
+
+a {
+  color: #7dcfea;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc043 !important;
+  text-decoration: underline;
+}
+
+body > div:nth-of-type(2n) {
+  background-color: #036f71;
+}
+
+body > div:nth-of-type(2n) a {
+  /*color: #bb8d15;*/
+}
+
+.pin, .pin * {
+  fill: #7dcfea !important;
+}
+
+circle {
+  fill: #1f89a7 !important;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .contact-methods {
+    width: initial;
+  }
+}
+
+
+
+.contact-img {
+  height: 40px;
+  transition: all 0.25s ease;
+}
+
+#github:hover{
+  background-color:#722c80;
+}
+
+#twitter:hover {
+  background-color:#5ea9dd;
+}
+
+#linkedin:hover{
+  background-color:#0084bf;
+}
+
+button.btn.btn-primary.resume-button {
+  /*background-color: #7dcfea;
+  border-color: #63aec7;*/
+  background-color: #3391b7;
+  border-color: #2269a7;
+}
+
+#intro, #about, #experience, #projects, #contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  min-height: 100%;
+}
+
+#top {
+  background-color: purple;
+}
+
+#intro {
+  /*background-color: green;*/
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.home-body{
+  text-align: center;
+}
+
+.project-homepage{
+  max-width: 400px;
+  min-width: 200px;
+  width: 60%;
+}
+
+.currently-working-text{
+  padding-bottom: 20px;
+}
+
+.project-group {
+  padding-bottom: 10px;
+}
+
+.screenshot {
+  width: 30%;
+  max-width: 400px;
+  min-width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#clinicaltrialsinner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .screenshot2 {
+    float: none;
+    margin: 10px auto;
+  }
+}
+
+.screenshot-pacman {
+  width: 30%;
+  max-width: 400px;
+  min-width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.ipad-screenshot {
+  width: 100%;
+  max-width: 520px;
+  max-height: 530px;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.my-nav-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 778px){
+
+  .my-nav-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+}
+
+.work-logo {
+  text-align: left !important;
+  margin-right: 7px;
+  margin-top: 20px;
+}
+
+.project-width {
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 10px
+}
+
+.clear-img {
+  width: 100px
+  height: 100px
+}
+
+.wrap {
+  min-height: 89.2%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.about-logo {
+  text-align: left !important;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-logo-width {
+  width: 100px;
+}
+
+.band-width {
+  width: 40%;
+  min-width: 140px;
+  max-width: 160px;
+}
+
+.experience-header {
+  padding-bottom: 10px;
+}
+
+.resume-button {
+  margin-bottom: 20px;
+}
+
+.experience-text {
+  padding-top: 10px;
+  text-align: left;
+  clear: both;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-title {
+  margin: 5px;
+  margin-top: 10px !important;
+  /*display: inline-block;*/
+  vertical-align: middle;
+}
+
+.project-title {
+  padding-top: 15px;
+}
+
+.company-info {
+  /*float: none;*/
+}
+
+.twitter {
+  height: 15px;
+}
+
+.twitter-sm {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.linkedin, .github, .mail {
+  height: 18px;
+}
+
+.linkedin-sm, .github-sm, .mail-sm {
+  height: 18px;
+  margin-right: 5px;
+}
+
+.pad {
+  padding-right: 2px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tech-btn {
+ margin-bottom: 5px;
+}
+
+.html-btn {
+  color: #FFF;
+  background-color: #F0754E;
+}
+
+.html-btn:hover {
+  color: #FFF;
+  background-color: #F35E2F;
+}
+
+.hide {
+  display: none;
+}
+
+.nav.navbar-nav>li>a.twitter-a, .twitter,
+.nav.navbar-nav>li>a.linkedin-a, .linkedin,
+.nav.navbar-nav>li>a.mail-a, .mail,
+.nav.navbar-nav>li>a.github-a, .github
+{
+  transition: background-color, color, 0.25s ease;
+}
+
+.nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
+  background-color:#5ea9dd;
+}
+
+.nav.navbar-nav>li>a.linkedin-a:hover{
+  background-color:#0084bf;
+}
+
+.pin {
+  display: inline-block;
+  height: 1.5em;
+  padding-right: 5px;
+  position: relative;
+  top: 5.8px;
+  width: 1.7em;
+}
+
+.nav.navbar-nav>li>a.mail-a:hover {
+  background-color:#990e0e;
+}
+
+.nav.navbar-nav>li>a.github-a:hover{
+  background-color:#722c80;
+}
+
+.menu-bar-container {
+  display: list-item;
+}
+
+.footer {
+  color: #CACACA;
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #0D4D4D;
+  text-align: center;
+  padding-top: 20px;
+
+  /*bottom: 0em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #d2d2d2;
+  text-align: center;*/
+}
+
+
+@media screen and (max-width: 580px) and (orientation: portrait){
+
+  .footer {
+    font-size: 8.5px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    padding-top: 25px;
+
+    /*bottom: 0em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #d2d2d2;
+    text-align: center;*/
+  }
 }
