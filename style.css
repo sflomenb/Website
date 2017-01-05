@@ -83,10 +83,14 @@ nav > div > a {
   }
 }
 
+#brand-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    padding-top: 23px;
+    padding-top: 17px;
   }
   nav div {
     flex-direction: column;
@@ -108,6 +112,7 @@ nav > div > a {
     opacity: 1;
     height: 185px;
     visibility: visible;
+    background-color: #005252;
   }
   #menu-toggle, .label-toggle {
     display: inline !important;
@@ -130,6 +135,9 @@ nav > div > a {
   }
   #brand {
     display: none;
+  }
+  #brand-mobile {
+    display: initial;
   }
 }
 
