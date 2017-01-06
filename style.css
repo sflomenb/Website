@@ -10,7 +10,7 @@ html, body {
 body {
   /*padding-top: 50px;*/
   margin-bottom: 60px;
-  background-color: #006466; /* #A3E9E9 #378B2E; #236167;*/
+  background-color: #26596A; /* #A3E9E9 #378B2E; #236167;*/
   color: #ffffff
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-  background-color: #005252;
+  background-color: #104050;
   /*padding: 1em 0;*/
   position: fixed;
   top: 0;
@@ -112,7 +112,7 @@ nav > div > a {
     opacity: 1;
     height: 230px;
     visibility: visible;
-    background-color: #005252;
+    background-color: #104050;
   }
   #menu-toggle, .label-toggle {
     display: inline !important;
@@ -162,7 +162,7 @@ nav div a:hover {
 /* a   #98282e; #D4B16A;*/
 
 a {
-  color: #7dcfea;
+  color: #70b9d2;
   text-decoration: none;
 }
 
@@ -172,11 +172,11 @@ a:hover {
 }
 
 body > div:nth-of-type(2n) {
-  background-color: #036f71;
+  background-color: #24637b;
 }
 
 body > div:nth-of-type(2n) a {
-  /*color: #bb8d15;*/
+  color: #7dcfea;
 }
 
 .pin, .pin * {
@@ -184,7 +184,7 @@ body > div:nth-of-type(2n) a {
 }
 
 circle {
-  fill: #1f89a7 !important;
+  fill: #307e98 !important;
 }
 
 .contact-methods {
