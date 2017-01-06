@@ -110,7 +110,7 @@ nav > div > a {
   }
   input[type=checkbox]:checked ~ div {
     opacity: 1;
-    height: 185px;
+    height: 230px;
     visibility: visible;
     background-color: #005252;
   }
