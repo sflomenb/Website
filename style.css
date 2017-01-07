@@ -190,15 +190,48 @@ circle {
 .contact-methods {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: auto;
-  width: 40%;
+  /*width: 40%;*/
   flex-wrap: wrap;
+  background-color: #3285a5;
+  border-radius: 35px;
+  height: 60px;
 }
 
+.twit-svg, .twit-svg path, .git-svg, .git-svg path {
+  width: inherit;
+  fill: initial;
+  transition: all 0.4s ease;
+}
+
+.twit-svg:hover path {
+  fill: #1EA1F2 !important;
+}
+
+.git-svg:hover > path {
+  fill: #1B1A1A !important;
+}
+
+@media (min-width: 768px) {
+  .contact-methods {
+    width: 400px;
+  }
+  div#contact {
+    min-height: 30%;
+  }
+}
 @media (max-width: 768px) {
   .contact-methods {
-    width: initial;
+    width: 300px;
   }
+  div#contact {
+    min-height: 60%;
+  }
+}
+
+#contact-header {
+  padding-bottom: 30px;
 }
 
 
@@ -217,7 +250,7 @@ circle {
 }
 
 #linkedin:hover{
-  background-color:#0084bf;
+  background-color: #0077B5;
 }
 
 button.btn.btn-primary.resume-button {
