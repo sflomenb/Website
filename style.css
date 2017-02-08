@@ -161,26 +161,33 @@ nav div a:hover {
 
 /* a   #98282e; #D4B16A;*/
 
-a {
+a, a:hover {
   color: #70b9d2;
+}
+
+a {
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffc043 !important;
   text-decoration: underline;
 }
 
-body > div:nth-of-type(2n) {
+body > div#experience {
+  background-color: #c4d3d4;
+  color: #000000;
+}
+
+body > div#contact {
   background-color: #24637b;
 }
 
-body > div:nth-of-type(2n) a {
-  color: #7dcfea;
+body > div#experience a, body > div#experience a:hover {
+  color: #189dd6 !important;
 }
 
 .pin, .pin * {
-  fill: #7dcfea !important;
+  fill: #66767C !important;
 }
 
 circle {
