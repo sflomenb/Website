@@ -2,26 +2,22 @@ html {
   position: relative;
   min-height: 100%;
 }
-
-html, body {
+html,
+body {
   height: 100%;
 }
-
 body {
-  /*padding-top: 50px;*/
   margin-bottom: 60px;
-  background-color: #26596A; /* #A3E9E9 #378B2E; #236167;*/
-  color: #ffffff
+  background-color: #f2f1ef;
+  color: #333;
 }
-
 .swift {
-	max-width: 100px !important;
-	padding-bottom: 10px;
+  max-width: 100px !important;
+  padding-bottom: 10px;
 }
-
 nav {
-  background-color: #104050;
-  /*padding: 1em 0;*/
+  background-color: #272727;
+/*padding: 1em 0*/
   position: fixed;
   top: 0;
   left: 0;
@@ -29,64 +25,36 @@ nav {
   z-index: 9999;
   opacity: 0.95;
 }
-
 nav div:not(.all-contact) {
   display: flex;
   justify-content: flex-end;
 }
-
 .left {
   margin-right: auto;
 }
-
 nav a {
-  /*border: 1px solid black;*/
   padding: 1em;
   margin: 0 20px;
-  /*color: #AC0000;*/
+  color: #a7a7a7;
 }
-
-nav a:hover {
-  background-color: #01537b;
+nav a:hover,
+nav a:focus {
+  color: #fff;
   text-decoration: none;
 }
-
-nav div:nth-of-type(2) {
-  background-color: blue;
-  display: flex;
-}
-
 nav > div > a {
-  /*padding: 1em;*/
+/*padding: 1em*/
   padding: 1em;
   margin: 0 20px;
 }
-
-#brand {
-}
-
-#all-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#contact-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #005353;
-}
-
 @media (min-width: 1200px) {
   nav div {
     padding: 0px 10em;
   }
 }
-
 #brand-mobile {
   display: none;
 }
-
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -102,8 +70,7 @@ nav > div > a {
     visibility: hidden;
   }
   nav div a:nth-child(n+3) {
-    /*color: blue;*/
-    border-top: 1px solid #7dcfea;
+    border-top: 1px solid #fff;
   }
   .left {
     align-items: center;
@@ -112,9 +79,10 @@ nav > div > a {
     opacity: 1;
     height: 230px;
     visibility: visible;
-    background-color: #104050;
+    background-color: #272727;
   }
-  #menu-toggle, .label-toggle {
+  #menu-toggle,
+  .label-toggle {
     display: inline !important;
     float: right;
   }
@@ -124,11 +92,12 @@ nav > div > a {
   #about {
     padding-top: 40px;
   }
-  #hamburger, #close {
+  #hamburger,
+  #close {
     width: 20px;
   }
   #close * {
-    fill: #FFF;
+    fill: #fff;
   }
   .hide {
     display: none;
@@ -140,86 +109,53 @@ nav > div > a {
     display: initial;
   }
 }
-
-
-/* -------------------*/
-
-#menu-toggle, .label-toggle {display: none;}
-
-
-/* -------------------*/
-
-nav li a {
-  /*display: block;
-  background-color: blue;
-  padding: 1em 4em;*/
+#menu-toggle,
+.label-toggle {
+  display: none;
 }
-
-nav div a:hover {
-  /*background-color: green;*/
+a,
+a:hover {
+  color: #26a652;
 }
-
-/* a   #98282e; #D4B16A;*/
-
-a, a:hover {
-  color: #70b9d2;
-}
-
 a {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
+body > div:not(:first-of-type),
+footer {
+  border-top: 1px solid #aaa;
+}
 body > div#experience {
-  background-color: #c4d3d4;
-  color: #000000;
+  color: #555;
 }
-
-body > div#contact {
-  background-color: #24637b;
-}
-
-body > div#experience a, body > div#experience a:hover {
-  color: #189dd6 !important;
-}
-
-.pin, .pin * {
-  fill: #66767C !important;
-}
-
+/*body > div#experience a, body > div#experience a:hover
+  color: #189dd6 !important
+*/
 circle {
-  fill: #307e98 !important;
+  fill: #26a652;
 }
-
 .contact-methods {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  /*width: 40%;*/
+  background-color: #a62a26;
   flex-wrap: wrap;
-  background-color: #3285a5;
   border-radius: 35px;
   height: 60px;
 }
-
-.twit-svg, .twit-svg path, .git-svg, .git-svg path {
+.twit-svg,
+.twit-svg path,
+.git-svg,
+.git-svg path {
   width: inherit;
   fill: initial;
+  color: initial;
+  background-color: initial;
   transition: all 0.4s ease;
 }
-
-.twit-svg:hover path {
-  fill: #1EA1F2 !important;
-}
-
-.git-svg:hover > path {
-  fill: #1B1A1A !important;
-}
-
 @media (min-width: 768px) {
   .contact-methods {
     width: 400px;
@@ -236,78 +172,63 @@ circle {
     min-height: 60%;
   }
 }
-
 #contact-header {
   padding-bottom: 30px;
 }
-
-
-
 .contact-img {
   height: 40px;
   transition: all 0.25s ease;
 }
-
-#github:hover{
-  background-color:#722c80;
+.twit-svg:hover path {
+  fill: #1ea1f2 !important;
 }
-
+.git-svg:hover > path {
+  fill: #1b1a1a !important;
+}
 #twitter:hover {
-  background-color:#5ea9dd;
+  background-color: #1ea1f2;
 }
-
-#linkedin:hover{
-  background-color: #0077B5;
+#linkedin:hover {
+  background-color: #0077b5;
 }
-
 button.btn.btn-primary.resume-button {
-  /*background-color: #7dcfea;
-  border-color: #63aec7;*/
-  background-color: #3391b7;
-  border-color: #2269a7;
+  border-color: #1c7d3e;
+  background-color: #26a652;
 }
-
-#intro, #about, #experience, #projects, #contact {
+button.btn.btn-primary.resume-button:hover {
+  border-color: #1a7037;
+  background-color: #22954a;
+}
+#intro,
+#about,
+#experience,
+#projects,
+#contact {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .fill {
   min-height: 100%;
 }
-
-#top {
-  background-color: purple;
-}
-
-#intro {
-  /*background-color: green;*/
-}
-
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
-
-.home-body{
+.home-body {
   text-align: center;
 }
-
-.project-homepage{
+.project-homepage {
   max-width: 400px;
   min-width: 200px;
   width: 60%;
 }
-
-.currently-working-text{
+.currently-working-text {
   padding-bottom: 20px;
 }
-
 .project-group {
   padding-bottom: 10px;
 }
-
 .screenshot {
   width: 30%;
   max-width: 400px;
@@ -316,19 +237,16 @@ button.btn.btn-primary.resume-button {
   margin-top: 10px;
   text-align: center;
 }
-
 #clinicaltrialsinner {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 @media (min-width: 1200px) {
   .screenshot2 {
     float: none;
     margin: 10px auto;
   }
 }
-
 .screenshot-pacman {
   width: 30%;
   max-width: 400px;
@@ -337,7 +255,6 @@ button.btn.btn-primary.resume-button {
   margin-top: 10px;
   text-align: center;
 }
-
 .ipad-screenshot {
   width: 100%;
   max-width: 520px;
@@ -346,81 +263,61 @@ button.btn.btn-primary.resume-button {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
-
 .my-nav-icon {
   width: 50px;
   height: 50px;
   margin-left: 5px;
   margin-right: 0px;
 }
-
-@media screen and (min-width: 778px){
-
+@media screen and (min-width: 778px) {
   .my-nav-icon {
     width: 50px;
     height: 50px;
     margin-left: 5px;
     margin-right: 10px;
   }
-
 }
-
 .work-logo {
   text-align: left !important;
   margin-right: 7px;
   margin-top: 20px;
 }
-
 .project-width {
   width: 50%;
   max-width: 600px;
   min-width: 300px;
-  margin: 10px
+  margin: 10px;
 }
-
-.clear-img {
-  width: 100px
-  height: 100px
-}
-
 .wrap {
   min-height: 89.2%;
   height: auto;
   margin: 0 auto -60px;
   padding: 0 0 60px;
 }
-
 .about-logo {
   text-align: left !important;
   margin-top: 20px;
   text-align: center;
 }
-
 .about-text {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
-
-.work-logo-width {
+.jefferson {
   width: 100px;
 }
-
 .band-width {
   width: 40%;
   min-width: 140px;
   max-width: 160px;
 }
-
 .experience-header {
   padding-bottom: 10px;
 }
-
 .resume-button {
   margin-bottom: 20px;
 }
-
 .experience-text {
   padding-top: 10px;
   text-align: left;
@@ -429,44 +326,45 @@ button.btn.btn-primary.resume-button {
   margin-left: auto;
   margin-right: auto;
 }
-
 .work-title {
   margin: 5px;
   margin-top: 10px !important;
-  /*display: inline-block;*/
+/*display: inline-block*/
   vertical-align: middle;
 }
-
+#developer {
+  margin: 0px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+#education {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
 .project-title {
   padding-top: 15px;
 }
-
-.company-info {
-  /*float: none;*/
-}
-
 .twitter {
   height: 15px;
 }
-
 .twitter-sm {
   height: 15px;
   margin-right: 5px;
 }
-
-.linkedin, .github, .mail {
+.linkedin,
+.github,
+.mail {
   height: 18px;
 }
-
-.linkedin-sm, .github-sm, .mail-sm {
+.linkedin-sm,
+.github-sm,
+.mail-sm {
   height: 18px;
   margin-right: 5px;
 }
-
 .pad {
   padding-right: 2px;
 }
-
 .flex {
   display: flex;
   justify-content: space-around;
@@ -475,42 +373,21 @@ button.btn.btn-primary.resume-button {
   max-width: 800px;
   margin: auto;
 }
-
 .tech-btn {
- margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-
 .html-btn {
-  color: #FFF;
-  background-color: #F0754E;
+  color: #fff;
+  background-color: #f0754e;
 }
-
 .html-btn:hover {
-  color: #FFF;
-  background-color: #F35E2F;
+  color: #fff;
+  background-color: #ee5e31;
 }
-
 .hide {
   display: none;
 }
-
-.nav.navbar-nav>li>a.twitter-a, .twitter,
-.nav.navbar-nav>li>a.linkedin-a, .linkedin,
-.nav.navbar-nav>li>a.mail-a, .mail,
-.nav.navbar-nav>li>a.github-a, .github
-{
-  transition: background-color, color, 0.25s ease;
-}
-
-.nav.navbar-nav>li>a.twitter-a:hover, .twitter:hover {
-  background-color:#5ea9dd;
-}
-
-.nav.navbar-nav>li>a.linkedin-a:hover{
-  background-color:#0084bf;
-}
-
-.pin {
+.left-of-text {
   display: inline-block;
   height: 1.5em;
   padding-right: 5px;
@@ -518,49 +395,30 @@ button.btn.btn-primary.resume-button {
   top: 5.8px;
   width: 1.7em;
 }
-
-.nav.navbar-nav>li>a.mail-a:hover {
-  background-color:#990e0e;
+.jeff-color,
+.jeff-color *,
+#jeff2016 a,
+#jeff2015 a {
+  fill: #569bca !important;
+  color: #569bca !important;
 }
-
-.nav.navbar-nav>li>a.github-a:hover{
-  background-color:#722c80;
-}
-
 .menu-bar-container {
   display: list-item;
 }
-
 .footer {
-  color: #CACACA;
   position: absolute;
   width: 100%;
-  /* Set the fixed height of the footer here */
+/* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #1d4f63;
+  background-color: #eff0f2;
   text-align: center;
   padding-top: 20px;
-
-  /*bottom: 0em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: 1px solid #d2d2d2;
-  text-align: center;*/
 }
-
-
-@media screen and (max-width: 580px) and (orientation: portrait){
-
+@media screen and (max-width: 580px) and (orientation: portrait) {
   .footer {
     font-size: 8.5px;
     width: 100%;
-    /* Set the fixed height of the footer here */
+/* Set the fixed height of the footer here */
     padding-top: 25px;
-
-    /*bottom: 0em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top: 1px solid #d2d2d2;
-    text-align: center;*/
   }
 }
