@@ -58,7 +58,7 @@ nav > div > a {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    padding-top: 17px;
+    padding-top: 12px;
   }
   nav div {
     flex-direction: column;
@@ -410,15 +410,18 @@ button.btn.btn-primary.resume-button:hover {
   width: 100%;
 /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #eff0f2;
   text-align: center;
   padding-top: 20px;
 }
 @media screen and (max-width: 580px) and (orientation: portrait) {
   .footer {
-    font-size: 8.5px;
+    font-size: 10px;
     width: 100%;
-/* Set the fixed height of the footer here */
     padding-top: 25px;
+  }
+}
+@media screen and (max-width: 400px) and (orientation: portrait) {
+  .footer {
+    font-size: 9px;
   }
 }
