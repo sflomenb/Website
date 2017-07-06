@@ -307,6 +307,9 @@ button.btn.btn-primary.resume-button:hover {
 .jefferson {
   width: 100px;
 }
+.vanguard {
+  width: 200px;
+}
 .band-width {
   width: 40%;
   min-width: 140px;
@@ -394,6 +397,12 @@ button.btn.btn-primary.resume-button:hover {
   position: relative;
   top: 5.8px;
   width: 1.7em;
+}
+.vanguard-color,
+.vanguard-color *,
+#vanguard a {
+  fill: #b30032 !important;
+  color: #b30032 !important;
 }
 .jeff-color,
 .jeff-color *,
