@@ -176,6 +176,7 @@ circle {
 }
 .contact-img {
   height: 40px;
+  width: 40px;
   transition: all 0.25s ease;
 }
 .twit-svg:hover path {
