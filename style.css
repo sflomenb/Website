@@ -27,7 +27,6 @@ nav {
 }
 nav div:not(.all-contact) {
   display: flex;
-  justify-content: flex-end;
 }
 .left {
   margin-right: auto;
