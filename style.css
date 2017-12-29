@@ -206,6 +206,7 @@ button.btn.btn-primary.resume-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .fill {
   min-height: 100%;
